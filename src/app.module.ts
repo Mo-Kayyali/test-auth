@@ -20,7 +20,7 @@ import { ConfigModule } from '@nestjs/config';
       password: 'pass123',
       database: 'postgres',
       autoLoadEntities: false,
-      synchronize: true,
+      synchronize: false,
     }),
     IamModule,
   ],
